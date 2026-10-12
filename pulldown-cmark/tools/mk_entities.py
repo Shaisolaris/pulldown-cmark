@@ -23,6 +23,7 @@
 # get https://html.spec.whatwg.org/multipage/entities.json
 # Usage: python tools/mk_entities.py entities.json > src/entities.rs
 
+import utils.session
 import json
 import sys
 
